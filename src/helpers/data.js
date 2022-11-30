@@ -6,6 +6,7 @@ import {
   ChartBarIcon as ChartBarIconSolid,
   ClipboardListIcon as ClipboardListIconSolid,
 } from "@heroicons/react/solid";
+
 export const dashboardNavLinks = [
   {
     name: "Dashboard",
@@ -41,5 +42,32 @@ export const dashboardNavLinks = [
     title: "Analytics",
     icon: <ChartBarIcon />,
     activeIcon: <ChartBarIconSolid />,
+  },
+];
+
+export const projects = [
+  {
+    name: "Slack",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in atque nulla reprehenderit maxime voluptatem alias aut fuga iste ducimus incidunt dolore, molestias fugit consectetur porro? Eius doloremque sapiente ea.",
+    platforms: ["iOS App", "Android"],
+    link: "#",
+    comments: 3,
+  },
+  {
+    name: "Google",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in atque nulla reprehenderit maxime voluptatem alias aut fuga iste ducimus incidunt dolore, molestias fugit consectetur porro? Eius doloremque sapiente ea.",
+    platforms: ["iOS App"],
+    link: "#",
+    comments: 5,
+  },
+  {
+    name: "facebook",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe in atque nulla reprehenderit maxime voluptatem alias aut fuga iste ducimus incidunt dolore, molestias fugit consectetur porro? Eius doloremque sapiente ea.",
+    platforms: ["iOS App", "Android"],
+    link: "#",
+    comments: 9,
   },
 ];

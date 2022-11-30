@@ -1,5 +1,6 @@
 import { DotsHorizontalIcon, PlusIcon, ViewGridIcon, ViewListIcon } from "@heroicons/react/outline";
 import { DashboardLayout, ProjectCard } from "../components";
+import { projects } from "../helpers/data";
 
 const Projects = () => {
   return (
@@ -22,8 +23,9 @@ const Projects = () => {
         <DotsHorizontalIcon className="w-6" />
       </div>
       <div className="space-y-4">
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((item, i) => (
+          <ProjectCard key={i} item={item} />
+        ))}
       </div>
     </DashboardLayout>
   );

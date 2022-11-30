@@ -1,9 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Analytics from "./pages/analytics";
-import Dashboard from "./pages/dashboard";
-import Message from "./pages/message";
-import Projects from "./pages/projects";
-import Tasks from "./pages/tasks";
+import { Analytics, Dashboard, Message, Projects, Tasks } from "./pages";
 
 const App = () => {
   return (

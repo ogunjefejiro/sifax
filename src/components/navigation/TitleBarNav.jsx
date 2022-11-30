@@ -16,7 +16,7 @@ const TitleBarNav = ({ pathname, menuOpen, setMenuOpen }) => {
               placeholder="Search..."
               className="w-full bg-[#f7f8f9] p-3 mr-12 rounded-lg outline-none text-base placeholder:text-[#A5A5A5]"
             />
-            <button className="btn btn-primary flex gap-2">
+            <button className="btn btn-primary flex gap-2 rounded-2xl">
               <PlusIcon className="w-4" /> New Project
             </button>
             <div className="min-w-fit">

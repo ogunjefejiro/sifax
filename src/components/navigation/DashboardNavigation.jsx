@@ -1,3 +1,4 @@
+import { TemplateIcon } from "@heroicons/react/outline";
 import { dashboardNavLinks } from "../../helpers/data";
 
 const DashboardNavigation = ({ pathname }) => {
@@ -6,7 +7,8 @@ const DashboardNavigation = ({ pathname }) => {
       <div>
         <div className="flex justify-between items-center gap-2 py-3 mx-5 lg:mx-6">
           <a href="/" className="flex gap-2 items-center">
-            <h2 className="font-bold text-xl text-primary">Tuscot</h2>
+            <TemplateIcon className="w-4 md:w-8 text-primary" />
+            <h2 className="font-bold text-xl md:text-3xl text">Tuscot</h2>
           </a>
         </div>
 
